@@ -39,7 +39,7 @@
             this.cmsMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.폼보이기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.끝내기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.Status = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusMessage = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -54,7 +54,7 @@
             this.메모장ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.cmsMenu.SuspendLayout();
-            this.statusStrip1.SuspendLayout();
+            this.Status.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -139,19 +139,19 @@
             this.끝내기ToolStripMenuItem.Text = "끝내기";
             this.끝내기ToolStripMenuItem.Click += new System.EventHandler(this.끝내기ToolStripMenuItem_Click);
             // 
-            // statusStrip1
+            // Status
             // 
-            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.Status.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.Status.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
             this.statusMessage});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 301);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 12, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(742, 22);
-            this.statusStrip1.SizingGrip = false;
-            this.statusStrip1.TabIndex = 5;
-            this.statusStrip1.Text = "statusStrip1";
+            this.Status.Location = new System.Drawing.Point(0, 301);
+            this.Status.Name = "Status";
+            this.Status.Padding = new System.Windows.Forms.Padding(1, 0, 12, 0);
+            this.Status.Size = new System.Drawing.Size(742, 22);
+            this.Status.SizingGrip = false;
+            this.Status.TabIndex = 5;
+            this.Status.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
@@ -248,7 +248,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(742, 323);
-            this.Controls.Add(this.statusStrip1);
+            this.Controls.Add(this.Status);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnModify);
@@ -266,8 +266,8 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.cmsMenu.ResumeLayout(false);
-            this.statusStrip1.ResumeLayout(false);
-            this.statusStrip1.PerformLayout();
+            this.Status.ResumeLayout(false);
+            this.Status.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -286,7 +286,7 @@
         private System.Windows.Forms.ContextMenuStrip cmsMenu;
         private System.Windows.Forms.ToolStripMenuItem 폼보이기ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 끝내기ToolStripMenuItem;
-        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.StatusStrip Status;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem 파일ToolStripMenuItem;
